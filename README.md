@@ -10,6 +10,6 @@ Very sad that export/import of Twinkly effects is not (yet) possible via the app
 
 You'll find 2 files in this repo at this moment:
 
-* twinkly.yaml: the main file with the description of each of my custom effects
+* twinkly_custom_effects.yaml: the main file with the description of each of my custom effects
 * devices.yaml: all my Twinkly devices with their corresponding playlist
 
