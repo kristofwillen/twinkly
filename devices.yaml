@@ -1,0 +1,140 @@
+---
+Devices:
+  - name: "Christmas tree"
+    Playlist:
+      - effec: "Night Sky"
+        duration: 300
+      - effect: "Fixed"
+        duration: 150
+      - effect: "11 cities"
+        duration: 210
+      - effect: "Hohoho"
+        duration: 270
+      - effect: "Christmas spirit"
+        duration: 240
+      - effect: "Salted caramel"
+        duration: 270
+      - effect: "Slow cane"
+        duration: 270
+      - effect: "Ultraslow"
+        duration: 270
+      - effect: "Solar flare"
+        duration: 270
+      - effect: "Warm white"
+        duration: 270
+      - effect: "Mint"
+        duration: 270
+      - effect: "Snow man"
+        duration: 270
+      - effect: "Vertical flag"
+        duration: 210
+  - name: "Desk lights"
+    Playlist:
+      - effect: "Warm white"
+        duration: 390
+      - effect: "Vertical flag"
+        duration: 330
+      - effect: "Toy store"
+        duration: 270
+      - effect: "Furnace"
+        duration: 270
+      - effect: "Warm hug"
+        duration: 270
+      - effect: "Cuberdon"
+        duration: 390
+      - effect: "Carrrot cake"
+        duration: 330
+      - effect: "Fixed"
+        duration: 330
+      - effect: "Miaka"
+        duration: 330
+      - effect: "Harrods"
+        duration: 330
+      - effect: "Shooting star"
+        duration: 330
+  - name: "Hungarian tree"
+    Playlist:
+      - effect: "Amazon"
+        duration: 300
+      - effect: "Hohoho"
+        duration: 300
+  - name: "Outside tree"
+    Playlist:
+      - effect: "Scotland flag"
+        duration: 210
+      - effect: "Sparkles"
+        duration: 210
+      - effect: "Glow"
+        duration: 210
+      - effect: "Carnival"
+        duration: 240
+      - effect: "Hypno vibe"
+        duration: 240
+      - effect: "Snowflakes"
+        duration: 240
+      - effect: "Scanner"
+        duration: 180
+      - effect: "24K future"
+        duration: 180
+      - effect: "Snowfall sparkles"
+        duration: 180
+      - effect: "ColorCascade"
+        duration: 180
+      - effect: "Fixed"
+        duration: 180
+  - name: "Seahouse tree"
+    Playlist:
+      - effect: "Toy store"
+        duration: 300
+      - effect: "11 cities"
+        duration: 300
+  - name: "Squares"
+    Playlist:
+      - effect: "Salted caramel"
+        duration: 270
+      - effect: "Furnace"
+        duration: 270
+      - effect: "Warm white"
+        duration: 270
+      - effect: "Cuberdon"
+        duration: 150
+      - effect: "Miaka"
+        duration: 150
+      - effect: "Solar flare"
+        duration: 270
+      - effect: "11 cities"
+        duration: 270
+      - effect: "Hypno vibe"
+        duration: 210
+      - effect: "Amazon"
+        duration: 270
+  - name: "Upper tree"
+    Playlist:
+      - effect: "Salted caramel"
+        duration: 120
+      - effect: "Hohoho"
+        duration: 210
+      - effect: "Toy store"
+        duration: 210
+      - effect: "Fixed"
+        duration: 210
+      - effect: "Slow cane"
+        duration: 90
+      - effect: "Carrot cake"
+        duration: 150
+      - effect: "Warm white"
+        duration: 270
+      - effect: "3D flag"
+        duration: 150
+      - effect: "Cotton candy"
+        duration: 90
+      - effect: "Solar flare"
+        duration: 240
+      - effect: "Ultraslow"
+        duration: 240
+      - effect: "Vertical flag"
+        duration: 210
+      - effect: "Pride"
+        duration: 210
+      - effect: "Snow man"
+        duration: 90
