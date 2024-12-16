@@ -13,6 +13,9 @@ You'll find 2 files in this repo at this moment:
 * twinkly_custom_effects.yaml: the main file with the description of each of my custom effects
 * devices.yaml: all my Twinkly devices with their corresponding playlist
 
+## Effects preview
+<img src=./images/twinkly_effects.png>
+
 ## Effects file layout
 The effects file describe per effect:
 * the defined layers with their respective parameters
