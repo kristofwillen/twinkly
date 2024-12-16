@@ -54,10 +54,34 @@ Devices:
         duration: 330
   - name: "Hungarian tree"
     Playlist:
-      - effect: "Amazon"
-        duration: 300
       - effect: "Hohoho"
-        duration: 300
+        duration: 270
+      - effect: "Warm white"
+        duration: 330
+      - effect: "Salted caramel"
+        duration: 270
+      - effect: "Vertical flag"
+        duration: 180
+      - effect: "Fixed"
+        duration: 270
+      - effect: "Slow cane"
+        duration: 270
+      - effect: "Banner"
+        duration: 210
+      - effect: "ColorCascade"
+        duration: 210
+      - effect: "Glow"
+        duration: 270
+      - effect: "Ultraslow"
+        duration: 210
+      - effect: "Furnace"
+        duration: 210
+      - effect: "Toy store"
+        duration: 180
+      - effect: "Snow Man"
+        duration: 150
+      - effect: "Candy shop"
+        duration: 90
   - name: "Outside tree"
     Playlist:
       - effect: "Scotland flag"

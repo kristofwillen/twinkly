@@ -13,8 +13,8 @@ Effects:
         zoom: 0
         angle: 40
         mix:
-          - type: multiply
-            amount: 100
+          type: multiply
+          amount: 100
   - name: "UltraSlow"
     Layers:
       - type: stripes
@@ -35,6 +35,9 @@ Effects:
         colors: ['white', 'pink']
         speed: 25
         zoom: 95
+        mix:
+          type: chMax
+          amount: 100
   - name: "Salted caramel"
     Layers:
       - type: gradient
@@ -50,15 +53,15 @@ Effects:
         speed: 50
         shift: 75
         mix:
-          - type: normal
-            amount: 50
+          type: normal
+          amount: 50
       - type: sparkle
         colors: ['white']
         speed: 0
         zoom: 100
         mix:
-          - type: chMax
-            amount: 100
+          type: chMax
+          amount: 100
   - name: "Amazon"
     Layers:
       - type: gradient
@@ -72,8 +75,8 @@ Effects:
         angle: 10
         speed: 25
         mix:
-          - type: multiply
-            amount: 75
+          type: multiply
+          amount: 75
   - name: "Hohoho"
     Layers:
       - type: sparkle
@@ -83,8 +86,8 @@ Effects:
       - type: color
         colors: ['green']
         mix:
-          - type: difference
-            amount: 50
+          type: difference
+          amount: 50
   - name: "Mint"
     Layers:
       - type: gradient
@@ -98,8 +101,8 @@ Effects:
         speed: 5
         zoom: 90
         mix:
-          - type: difference
-            amount: 100
+          type: difference
+          amount: 100
   - name: "Solar Flare"
     Layers:
       - type: stripes
@@ -113,8 +116,8 @@ Effects:
         angle: 15
         speed: 15
         mix:
-          - type: multiply
-            amount: 100
+          type: multiply
+          amount: 100
   - name: "Toy store"
     Layers:
       - type: stripes
@@ -128,8 +131,8 @@ Effects:
         angle: 15
         speed: 5
         mix:
-          - type: multiply
-            amount: 50
+          type: multiply
+          amount: 50
   - name: "11 cities"
     Layers:
       - type: gradient
@@ -143,8 +146,8 @@ Effects:
         speed: 5
         zoom: 100
         mix:
-          - type: difference
-            amount: 100
+          type: difference
+          amount: 100
   - name: "Snow man"
     Layers:
       - type: sparkle
@@ -154,8 +157,8 @@ Effects:
       - type: color
         colors: ['white']
         mix:
-          - type: difference
-            amount: 100
+          type: difference
+          amount: 100
   - name: "Banner"
     Layers:
       - type: gradient
@@ -177,8 +180,8 @@ Effects:
         speed: 25
         zoom: 80
         mix:
-          - type: difference
-            amount: 80
+          type: difference
+          amount: 80
   - name: "Cuberdon"
     Layers:
       - type: gradient
@@ -192,8 +195,8 @@ Effects:
         angle: 20
         speed: 25
         mix:
-          - type: multiply
-            amount: 50
+          type: multiply
+          amount: 50
   - name: "Carrot cake"
     Layers:
       - type: gradient
@@ -207,8 +210,8 @@ Effects:
         speed: 0
         zoom: 70
         mix:
-          - type: chMax
-            amount: 100
+          type: chMax
+          amount: 100
   - name: "Amarena"
     Layers:
       - type: sparkle
@@ -218,8 +221,8 @@ Effects:
       - type: color
         colors: ['white']
         mix:
-          - type: chMax
-            amount: 50
+          type: chMax
+          amount: 50
       - type: gradient
         colors: ['red', 'white']
         zoom: 10
@@ -227,8 +230,8 @@ Effects:
         speed: 25
         shift: 0
         mix:
-          - type: normal
-            amount: 50
+          type: normal
+          amount: 50
   - name: "Warm white"
     Layers:
       - type: gradient
@@ -242,8 +245,8 @@ Effects:
         angle: 100
         speed: 25
         mix:
-          - type: multiply
-            amount: 40
+          type: multiply
+          amount: 40
   - name: "Harrods"
     Layers:
       - type: color
@@ -253,8 +256,8 @@ Effects:
         angle: 10
         speed: 90
         mix:
-          - type: color_burn
-            amount: 75
+          type: color_burn
+          amount: 75
   - name: "Posh"
     Layers:
       - type: color
@@ -264,8 +267,8 @@ Effects:
         speed: 15
         zoom: 100
         mix:
-          - type: chMax
-            amount: 100
+          type: chMax
+          amount: 100
   - name: "Slow cane"
     Layers:
       - type: gradient
@@ -287,8 +290,8 @@ Effects:
         speed: 15
         shift: 0
         mix:
-          - type: Difference
-            amount: 100
+          type: Difference
+          amount: 100
   - name: "Miaka"
     Layers:
       - type: gradient
@@ -297,3 +300,21 @@ Effects:
         angle: 90
         speed: 15
         shift: 0
+  - name: "Jewel box"
+    Layers:
+      - type: color
+        colors: [ 'light-pink' ]
+      - type: plasma
+        zoom: 5
+        angle: 15
+        speed: 20
+        mix: 
+          type: multiply
+          amount: 100
+      - type: plasma
+        zoom: 5
+        angle: 50
+        speed: 35
+        mix: 
+          type: multiply
+          amount: 100
