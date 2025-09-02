@@ -308,13 +308,24 @@ Effects:
         zoom: 5
         angle: 15
         speed: 20
-        mix: 
+        mix:
           type: multiply
           amount: 100
       - type: plasma
         zoom: 5
         angle: 50
         speed: 35
-        mix: 
+        mix:
           type: multiply
+          amount: 100
+  - name: Rudolf
+    Layers:
+      - type: color
+        colors: ['red']
+      - type: sparkle
+        colors: ['white']
+        speed: 15
+        zoom: 100
+        mix:
+          type: screen
           amount: 100
