@@ -41,16 +41,16 @@ Effects:
   - name: "Salted caramel"
     Layers:
       - type: gradient
-        colors: ['dark-yellow', 'yellow-brown', 'brown', 'orange', 'dark-brown', 'light-orange']
+        colors: ['dark-yellow', 'brown', 'dark-orange', 'orange', 'dark-brown', 'light-orange']
         zoom: 0
         angle: 90
-        speed: 50
+        speed: 20
         shift: 60
       - type: gradient
-        colors: ['dark-yellow', 'light-orange', 'orange-brown', 'brown', 'dark-brown']
+        colors: ['dark-yellow', 'orange', 'orange-brown', 'brown', 'dark-brown']
         zoom: 0
-        angle: 60
-        speed: 50
+        angle: 75
+        speed: 30
         shift: 75
         mix:
           type: normal
@@ -61,7 +61,7 @@ Effects:
         zoom: 100
         mix:
           type: chMax
-          amount: 100
+          amount: 70
   - name: "Amazon"
     Layers:
       - type: gradient
@@ -132,7 +132,7 @@ Effects:
         speed: 5
         mix:
           type: multiply
-          amount: 50
+          amount: 100
   - name: "11 cities"
     Layers:
       - type: gradient
@@ -222,26 +222,26 @@ Effects:
         colors: ['white']
         mix:
           type: chMax
-          amount: 50
+          amount: 20
       - type: gradient
-        colors: ['red', 'white']
+        colors: ['red', 'white', 'red']
         zoom: 10
-        angle: 50
+        angle: 40
         speed: 25
         shift: 0
         mix:
-          type: normal
-          amount: 50
+          type: chMax
+          amount: 80
   - name: "Warm white"
     Layers:
       - type: gradient
-        colors: ['dark-orange', 'dark-yellow']
+        colors: ['orange', 'yellow', 'dark-orange', 'dark-yellow']
         zoom: 0
         angle: 25
         speed: 25
         shift: 0
       - type: plasma
-        zoom: 20
+        zoom: 5
         angle: 100
         speed: 25
         mix:
@@ -249,26 +249,30 @@ Effects:
           amount: 40
   - name: "Harrods"
     Layers:
-      - type: color
-        colors: ['light-pink']
+      - type: stripes
+        colors: ['green', 'red', 'green', 'red']
+        speed: 10
+        shift: 0
+        zoom: 0
+        angle: 50
       - type: plasma
         zoom: 5
         angle: 10
-        speed: 90
+        speed: 80
         mix:
-          type: color_burn
-          amount: 75
+          type: normal
+          amount: 10
   - name: "Posh"
     Layers:
       - type: color
         colors: ['pale-pink']
       - type: sparkle
-        colors: ['white']
-        speed: 15
+        colors: ['red', 'white']
+        speed: 5
         zoom: 100
         mix:
-          type: chMax
-          amount: 100
+          type: normal
+          amount: 50
   - name: "Slow cane"
     Layers:
       - type: gradient
@@ -284,7 +288,7 @@ Effects:
         speed: 10
         zoom: 100
       - type: gradient
-        colors: ['yellow', 'purple-red', 'dark-orange']
+        colors: ['yellow', 'red', 'dark-orange', 'yellow']
         zoom: 20
         angle: 50
         speed: 15
@@ -306,15 +310,15 @@ Effects:
         colors: [ 'light-pink' ]
       - type: plasma
         zoom: 5
-        angle: 15
-        speed: 20
+        angle: 10
+        speed: 15
         mix:
           type: multiply
           amount: 100
       - type: plasma
         zoom: 5
         angle: 50
-        speed: 35
+        speed: 25
         mix:
           type: multiply
           amount: 100
@@ -325,7 +329,252 @@ Effects:
       - type: sparkle
         colors: ['white']
         speed: 15
-        zoom: 100
+        zoom: 90
         mix:
           type: screen
           amount: 100
+  - name: NightSky2
+    Layers:
+      - type: gradient
+        colors: ['dark-green-blue', ']
+        zoom: 10
+        angle: 20
+        speed: 15
+        shift: 0
+      - type: sparkle
+        colors: ['white', 'yellow']
+        speed: 20
+        zoom: 20
+        mix:
+          type: screen
+          amount: 80
+  - name: Winter Sky
+    Layers:
+      - type: gradient
+        colors: ['light-blue', 'dark-blue']
+        zoom: 0
+        angle: 20
+        speed: 40
+        shift: 0
+      - type: plasma
+        zoom: 5
+        angle: 10
+        speed: 15
+        mix:
+          type: normal
+          amount: 20
+  - name: Let it Snow
+    Layers:
+      - type: gradient
+        colors: ['vivid-cerulean', 'dark-cerulean', 'white', 'white']
+        zoom: 0
+        angle: 25
+        speed: 50
+        shift: 0
+      - type: sparkle
+        colors: ['white']
+        mix:
+          type: chMax
+          amount: 100
+  - name: The fire pit
+    Layers:
+      - type: gradient
+        colors: ['red', 'dark-orange', 'orange']
+        zoom: 0
+        angle: 30
+        speed: 20
+        shift: 0
+      - type: gradient
+        colors: ['dark-yellow', 'yellow', 'dark-orange']
+        zoom: 0
+        angle: 75
+        speed: 20
+        mix:
+          type: normal
+          amount: 75
+      - type: plasma
+        angle: 20
+        speed: 60
+        mix:
+          type: multiply
+          amount: 50
+  - name: 12K Future
+    Layers:
+      - type: gradient
+        colors: ['dark-orange', 'dark-yellow'
+        zoom: 0
+        angle: 40
+        speed: 50
+        shift: 0
+      - type: sparkle
+        colors: ['white']
+        zoom: 80
+        speed: 25
+        mix:
+          type: screen
+          amount: 100
+  - name: Marshmellows2
+    Layers:
+      - type: color
+        colors: ['red']
+      - type: plasma
+        zoom: 5
+        angle: 20
+        speed: 30
+        mix:
+          type: normal
+          amount: 25
+      - type: plasma
+        zoom: 5
+        angle: 80
+        speed: 60
+        mix:
+          type: normal
+          amount: 25
+  - name: Candlesticks
+    Layers:
+      - type: sparkles
+        colors: ['red']
+        zoom: 100
+        speed: 10
+      - type: color
+        colors: ['dark-yellow']
+        mix:
+          type: normal
+          amount: 50
+  - name: Autumn Snow
+    Layers:
+      - type: gradient
+        colors: ['dark-yellow', 'dark-orange']
+        zoom: 0
+        angle: 40
+        speed: 10
+        shift: 0
+      - type: plasma
+        zoom: 5
+        angle: 10
+        speed: 30
+        mix:
+          type: multiply
+          amount: 75
+      - type: stripes
+        colors: ['white', 'black', 'white', 'black']
+        speed: 0
+        shift: 10
+        zoom: 0
+        angle: 10
+        mix:
+          type: chMax
+          amount: 75
+  - name: Christmas Sock
+    Layers:
+      - type: stripes
+        colors: ['white', 'black', 'red', 'black']
+        speed: 0
+        shift: 10
+        zoom: 0
+        angle: 30
+      - type: sparkles
+        colors: ['red', 'white', 'vivid-cerulean']
+        zoom: 20
+        speed: 10
+        mix:
+          type: chMax
+          amount: 100
+  - name: Red Queen
+    Layers:
+      - type: stripes
+        colors: ['red', 'black', 'red', 'black']
+        speed: 5
+        shift: 10
+        zoom: 0
+        angle: 25
+      - type: stripes
+        colors: ['red', 'black', 'red', 'black']
+        speed: 5
+        shift: 20
+        zoom: 0
+        angle: 30
+        mix:
+          type: chMax
+          amount: 100
+      - type: sparkles
+        colors: ['dark-orange', 'white']
+        zoom: 90
+        speed: 10
+        mix:
+          type: chMax
+          amount: 100
+  - name: Christmas Spirit2
+    Layers:
+      - type: gradient
+        colors: ['black', 'red', 'black', 'red']
+        zoom: 0
+        angle: 75
+        speed: 20
+        shift: 0
+        zoom: 10
+      - type: gradient
+        colors: ['black', 'green', 'black', 'green']
+        zoom: 5
+        angle: 90
+        speed: 20
+        shift: 0
+        mix:
+          type: chMax
+          amount: 100
+  - name: Fire and Ice
+    Layers:
+      - type: stripes
+        colors: ['white-purple', 'orange', 'white-purple', 'orange']
+        speed: 0
+        shift: 40
+        zoom: 5
+        angle: 25
+      - type: plasma
+        zoom: 5
+        angle: 95
+        speed: 50
+        mix:
+          type: multiply
+          amount: 30
+  - name: Canada
+    Layers:
+      - type: color
+        colors: ['dark-green']
+      - type: plasma
+        zoom: 5
+        angle: 20
+        speed: 25
+        mix:
+          type: normal
+          amount: 25
+      - type: plasma
+        zoom: 5
+        angle: 80
+        speed: 60
+        mix:
+          type: multiply
+          amount: 30
+  - name: Borealis
+    Layers:
+      - type: gradient
+        colors: ['dark-green', 'blue', 'light-blue']
+        zoom: 10
+        angle: 40
+        speed: 25
+        shift: 0
+      - type: plasma
+        zoom: 5
+        angle: 50
+        speed: 30
+        mix:
+          type: multiply
+          amount: 20
+      - type: sparkles
+        colors: ['light-blue']
+        zoom: 50
+        speed: 10
+        mix:
+          type: normal
+          amount: 50
